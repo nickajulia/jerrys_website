@@ -40,7 +40,7 @@ margin-left: 10px;
 
 
 
-#ubermenu-nav-main-218-header-top-menu{
+#ubermenu-nav-main-269-header-top-menu{
 
 	li a {
 		font-size: 18px;
@@ -83,6 +83,22 @@ width: 42%;
 
 }
 
+/*-- All tins--*/
+.tinWrap{
+	justify-content:flex-start;
+}
+
+.nutTin, .popTin{
+	width: 33%;
+}
+
+
+/*--CHOOSE YOUR TREAT--*/
+.treat{
+	width: 33%;
+}
+
+
 
 /*---------Footer-----------*/
 
@@ -109,4 +125,4 @@ width: 42%;
 
 
 
-  } /* min-width 641px, medium screens */
+  } /*  Large screens */

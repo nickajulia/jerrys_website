@@ -19,7 +19,7 @@
 
 <?php wp_head(); ?>
 </head>
-<div id="menuAboveWrap" class="menuAboveWrap" style="position: relative;">
+<div id="menuAboveWrap" class="menuAboveWrap">
   <div id="menuAbove" class="menuAbove">
     <?php wp_nav_menu( array( 'theme_location' => 'header-above-menu' ) ); ?>
   </div><!--Menu Above-->

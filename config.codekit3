@@ -9,11 +9,29 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/00000411.png": {
+		"ft": 32768,
+		"iS": 1280465,
+		"oA": 0,
+		"oAP": "\/00000411.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/404.php",
+		"oF": 0
+		},
+	"\/allgiftpage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/allgiftpage.html",
 		"oF": 0
 		},
 	"\/analyticstracking.php": {
@@ -28,6 +46,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/archive.php",
+		"oF": 0
+		},
+	"\/blueTin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/blueTin.html",
 		"oF": 0
 		},
 	"\/bootstrap4.js": {
@@ -744,7 +769,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
 		"oF": 0,
 		"sC": 1,
@@ -1037,6 +1062,23 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/cartfunctioncall.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/cartfunctioncall-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/citySidewalksTin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/citySidewalksTin.html",
+		"oF": 0
+		},
 	"\/combined-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1071,35 +1113,22 @@
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
-	"\/css\/stylesheet.css": {
+	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/stylesheet-min.css",
+		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/ddlevelsfiles\/ddlevelsmenu-base.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/css\/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/ddlevelsfiles\/ddlevelsmenu-base-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/ddlevelsfiles\/ddlevelsmenu.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/ddlevelsfiles\/min\/ddlevelsmenu-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oAP": "\/css\/style.css.map",
+		"oF": 0
 		},
 	"\/defer.js": {
 		"ft": 64,
@@ -1373,11 +1402,36 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
+	"\/gaurantee_badge.png": {
+		"ft": 32768,
+		"iS": 29490,
+		"oA": 0,
+		"oAP": "\/gaurantee_badge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/headingHomeTin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/headingHomeTin.html",
+		"oF": 0
+		},
+	"\/homepage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage.html",
 		"oF": 0
 		},
 	"\/ie.css": {
@@ -1615,7 +1669,7 @@
 		"iS": 88460,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almond-flour-oven.JPG",
+		"oAP": "\/images\/almond-flour-oven.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1637,7 +1691,7 @@
 		"iS": 78008,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almond-flour-prebake.JPG",
+		"oAP": "\/images\/almond-flour-prebake.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1659,7 +1713,7 @@
 		"iS": 80737,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almond-flour-spread.JPG",
+		"oAP": "\/images\/almond-flour-spread.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1681,7 +1735,7 @@
 		"iS": 78083,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almond-milk.JPG",
+		"oAP": "\/images\/almond-milk.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1692,7 +1746,7 @@
 		"iS": 111246,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-add-spices.JPG",
+		"oAP": "\/images\/almonds-add-spices.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1703,7 +1757,7 @@
 		"iS": 107157,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-addwater.JPG",
+		"oAP": "\/images\/almonds-addwater.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1725,7 +1779,7 @@
 		"iS": 91796,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-blended-1sttime.JPG",
+		"oAP": "\/images\/almonds-blended-1sttime.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1736,7 +1790,7 @@
 		"iS": 98415,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-inwater.JPG",
+		"oAP": "\/images\/almonds-inwater.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1747,7 +1801,7 @@
 		"iS": 95686,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-measuringcup.JPG",
+		"oAP": "\/images\/almonds-measuringcup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1758,7 +1812,7 @@
 		"iS": 93192,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-pour-bowl.JPG",
+		"oAP": "\/images\/almonds-pour-bowl.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1769,7 +1823,7 @@
 		"iS": 108850,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-pouring-blender.JPG",
+		"oAP": "\/images\/almonds-pouring-blender.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1791,7 +1845,7 @@
 		"iS": 79484,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/almonds-straining.JPG",
+		"oAP": "\/images\/almonds-straining.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5995,11 +6049,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/index.html": {
+	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/jerry": {
@@ -6015,6 +6069,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/jquery_plugins\/min\/jquery.corner-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/min\/cartfunctioncall-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/min\/cartfunctioncall-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/min\/validator-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/min\/validator-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6043,6 +6117,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
+		"oF": 0
+		},
+	"\/page_blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page_blog.php",
 		"oF": 0
 		},
 	"\/pinterest-e12c5.html": {
@@ -8548,13 +8629,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/product_images\/fullWidthPage.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/product_images\/fullWidthPage.php",
-		"oF": 0
 		},
 	"\/product_images\/gold-dome.indexed.png": {
 		"ft": 32768,
@@ -14514,6 +14588,20 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/redsnowflakeTin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/redsnowflakeTin.html",
+		"oF": 0
+		},
+	"\/rest_proxy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/rest_proxy.php",
+		"oF": 0
+		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 395770,
@@ -14831,41 +14919,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/4a7af62a243c5ba5acab437050355dc335639aac\/xl.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/large.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/large.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/medium.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/medium.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/small.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/small.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/style.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/style.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/xl.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/scss\/.sass-cache\/703ddea220f68224dd5089b0645e705d643d410b\/xl.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/8ebdb3a9ea8119da9ac9d2231add377b5755155a\/_bootstrap.scssc": {
@@ -15574,214 +15627,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/fa-scss\/_animated.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_animated.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_bordered-pulled.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_bordered-pulled.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_core.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_core.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_fixed-width.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_fixed-width.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_icons.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_icons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_larger.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_larger.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_list.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_list.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_mixins.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_rotated-flipped.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_rotated-flipped.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_screen-reader.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_screen-reader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_stacked.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_stacked.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/_variables.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/fa-brands.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/scss\/css\/fa-brands.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/fa-regular.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/scss\/css\/fa-regular.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/fa-solid.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/scss\/css\/fa-solid.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/fa-scss\/fontawesome.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/scss\/css\/fontawesome.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/large.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -15808,6 +15653,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/platinumtin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/scss\/platinumtin.html",
+		"oF": 0
+		},
 	"\/scss\/small.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -15829,8 +15681,8 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/style.css",
-		"oF": 2,
+		"oAP": "\/css\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -15904,7 +15756,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 3
@@ -15922,6 +15774,93 @@
 		"oA": 0,
 		"oAP": "\/taxonomy-catalog.php",
 		"oF": 0
+		},
+	"\/ultracartjs\/accounting.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/accounting.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/ultracartjs\/cart_1.0.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/cart_1.0-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/ultracartjs\/cart_rest_0.2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/cart_rest_0.2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/ultracartjs\/handlebars-v1.1.2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/handlebars-v1.1.2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/ultracartjs\/handlebars-v3.0.3.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/handlebars-v3.0.3-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/ultracartjs\/jquery-1.11.3.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/jquery-1.11.3.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/ultracartjs\/json3.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/json3.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/ultracartjs\/rest_proxy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/rest_proxy.php",
+		"oF": 0
+		},
+	"\/ultracartjs\/ultracart_common_functions_1.0.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/ultracartjs\/min\/ultracart_common_functions_1.0-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/validator.js": {
 		"ft": 64,
@@ -15950,9 +15889,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 548963779,
-	"displayValue": "jerry",
+	"displayValue": "jerrys website",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-drunkArcher",
+	"iconImageName": "brackets_purple",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

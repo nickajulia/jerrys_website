@@ -1,0 +1,1 @@
+function createCart(){jQuery.ajax({url:"/rest_proxy.php?_url=/rest/cart",headers:{"X-UC-Merchant-Id":"DEMO","cache-control":"no-cache"},dataType:"json"}).done(function(e){jQuery("#createCartResults").html("<pre>"+JSON.stringify(e,null,"  ")+"</pre>")})}jQuery(document).ready(function(){jQuery("#createCartButton").on("click",createCart)});

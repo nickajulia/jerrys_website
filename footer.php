@@ -125,7 +125,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
           <a href="http://www.jerrysnuthouse.com/chocolate-shipping-disclaimer/">Heat Sensitive Items</a><br>
           <a href="http://www.jerrysnuthouse.com/shipping/">Shipping</a><br>
           <a href="http://www.jerrysnuthouse.com/faq/">FAQ</a><br>
-             <a href="http://www.jerrysnuthouse.com/blog/">Blog</a><br>
+             <a href="http://www.jerrysnuthouse.com/blog/">Blog</a>
           <a href="http://www.jerrysnuthouse.com/affiliate-program/">Be An Affiliate</a><br>
           <a href="http://www.jerrysnuthouse.com/wholesale-opportunities/">Wholesale</a>
 
@@ -167,7 +167,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
           </li>
           <li id="footerSealsItem3" class="footerSealsItem">
             <div id="paypal" class="footerfloat">
-               <!-- PayPal Logo --><a href="https://www.paypal.com/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://jnh-jerrysnuthouse.netdna-ssl.com/website+images/paypal_img.jpg" border="0" alt="PayPal Acceptance Mark"></a><!-- PayPal Logo -->
+               <!-- PayPal Logo --><a href="https://www.paypal.com/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.jerrysnuthouse.com/wp-content/uploads/paypal_img.jpg" border="0" alt="PayPal Acceptance Mark"></a><!-- PayPal Logo -->
              </div>
           </li>
           <li id="footerSealsItem4" class="footerSealsItem">
@@ -200,12 +200,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
       </div><!--Inner5Wrap--> 
     </div><!--footer container inner--> 
   </div><!---end footercontainer5 -->
-<?php 
-// If the current user can manage options(ie. an admin)
-if( current_user_can( 'manage_options' ) ) 
-    // Print the saved global 
-    printf( '<div><strong>Current template:</strong> %s</div>', get_current_template() ); 
-?>
+
 
 </footer>
 

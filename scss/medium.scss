@@ -20,6 +20,7 @@ h2{
 	width: 100%;
 	background-color: #000000;
 	z-index: 1000;
+	top:0;
 	
 }
 
@@ -45,7 +46,7 @@ h2{
 }
 
 .headerSpacer{
-	    width: 90%;
+	    width: 100%;
     margin: auto;
 }
 
@@ -71,7 +72,7 @@ h2{
 }
 
 
-#ubermenu-nav-main-218-header-top-menu{
+#ubermenu-nav-main-269-header-top-menu{
 
 
 	li{
@@ -95,7 +96,7 @@ h2{
 
 
 /*--------- header -------------*/
-#ubermenu-nav-main-218-header-top-menu{
+#ubermenu-nav-main-269-header-top-menu{
 
 	li a {
 		font-size: 16px;
@@ -177,6 +178,100 @@ width: 44%;
     justify-content: flex-end;
 }
 
+
+/*-------All  Tins -------*/
+.nutTin, .popTin{
+	width: 50%;
+}
+
+/*--CHOOSE YOUR TREAT--*/
+
+.treatWrap{
+	justify-content:flex-start;
+}
+.treat{
+	width: 50%;
+	padding:1%;
+}
+
+/*-------- Home Page -------------------*/
+
+
+.homeHero{
+	
+	.textWrap{
+		//width: 50%;
+	}
+
+	.text{
+    font-size: 60px;
+	}	 
+	
+}
+.section1{
+	    width: 80%;
+        padding-top: 20px;
+    padding-bottom: 50px;
+
+	.left{
+		width:63%;
+		margin-right: 2%;
+    margin-bottom: 10px;
+
+	}
+
+	.right{
+		width: 35%;
+    margin-bottom: 10px;
+	}
+
+}
+
+.square1{
+	background: url(http://www.jerrysnuthouse.com/wp-content/uploads/Chocolate-Peanut-Clusters-e1480977541105.jpeg);
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100%;
+}
+
+.square2{
+
+	background: url(http://www.jerrysnuthouse.com/wp-content/uploads/cherriesdried.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 30%;
+
+}
+
+.square3{
+	      background: url(http://www.jerrysnuthouse.com/wp-content/uploads/Salty-Nut-Trio-e1480977569313.jpeg);
+	background-size: cover;      
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: 50%;
+}
+
+.square4{
+	   background: url(http://www.jerrysnuthouse.com/wp-content/uploads/Cherry-Nut-Harvest-e1480974376511.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 30%;
+   
+}
+
+
+.square1, .square2{
+	height: 45vh;
+}
+
+.square3{
+	height: 91vh;
+}
+
+.squareTextTitle, .squareTextTitleCenter{
+	color: #ffffff;
+}
 
 
 /*------- Footer----------*/

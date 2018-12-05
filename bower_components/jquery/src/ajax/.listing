@@ -1,9 +1,0 @@
-drwxr-xr-x    3 1176120    jerrysnuth          9 Oct 20  2015 .
-drwxr-xr-x   15 1176120    jerrysnuth         38 Oct 20  2015 ..
--rw-r--r--    1 1176120    jerrysnuth       2516 Oct 20  2015 jsonp.js
--rw-r--r--    1 1176120    jerrysnuth       1669 Oct 20  2015 load.js
--rw-r--r--    1 1176120    jerrysnuth        222 Oct 20  2015 parseJSON.js
--rw-r--r--    1 1176120    jerrysnuth        485 Oct 20  2015 parseXML.js
--rw-r--r--    1 1176120    jerrysnuth       1271 Oct 20  2015 script.js
-drwxr-xr-x    2 1176120    jerrysnuth          4 Oct 20  2015 var
--rw-r--r--    1 1176120    jerrysnuth       3488 Oct 20  2015 xhr.js

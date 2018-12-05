@@ -1,9 +1,0 @@
-drwxr-xr-x    3 1176120    jerrysnuth          9 Oct 20  2015 .
-drwxr-xr-x   15 1176120    jerrysnuth         38 Oct 20  2015 ..
--rw-r--r--    1 1176120    jerrysnuth        509 Oct 20  2015 addGetHookIf.js
--rw-r--r--    1 1176120    jerrysnuth       1452 Oct 20  2015 curCSS.js
--rw-r--r--    1 1176120    jerrysnuth       1867 Oct 20  2015 defaultDisplay.js
--rw-r--r--    1 1176120    jerrysnuth        380 Oct 20  2015 hiddenVisibleSelectors.js
--rw-r--r--    1 1176120    jerrysnuth       3198 Oct 20  2015 support.js
--rw-r--r--    1 1176120    jerrysnuth        555 Oct 20  2015 swap.js
-drwxr-xr-x    2 1176120    jerrysnuth          7 Oct 20  2015 var
