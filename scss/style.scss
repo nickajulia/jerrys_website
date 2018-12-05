@@ -1,0 +1,715 @@
+/*
+ Theme Name:   Jerrys Genesis Child
+ Theme URI:    http://jerrysnuthouse.com/jerrys/
+ Description:  Jerrys Genesis Child
+ Author:       Nicholas Julia
+ Author URI:   http://nicholasjulia.com
+ Template:     genesis
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+
+
+//style.scss
+
+@import'scss/bootstrap4.scss';
+
+
+/*------------- variables ------------- */
+
+$quantityWrapBorder:#333;
+$linkHover:#c3251d;
+
+
+/*------------- fonts ------------- */
+
+@font-face {
+
+    font-family: 'BebasNeueRegular';
+
+    src: url('http://yum.jerrysnuthouse.com/font/BebasNeue-webfont.eot');
+
+    src: url('http://yum.jerrysnuthouse.com/font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+
+         url('http://yum.jerrysnuthouse.com/font/BebasNeue-webfont.woff') format('woff'),
+
+         url('http://yum.jerrysnuthouse.com/font/BebasNeue-webfont.ttf') format('truetype'),
+
+         url('http://yum.jerrysnuthouse.com/font/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'BebasRegular';
+
+    src: url('http://yum.jerrysnuthouse.com/font/Bebas-fontfacekit/BEBAS___-webfont.eot');
+
+    src: url('http://yum.jerrysnuthouse.com/font/Bebas-fontfacekit/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+
+         url('http://yum.jerrysnuthouse.com/font/Bebas-fontfacekit/BEBAS___-webfont.woff') format('woff'),
+
+         url('http://yum.jerrysnuthouse.com/font/Bebas-fontfacekit/BEBAS___-webfont.ttf') format('truetype'),
+
+         url('http://yum.jerrysnuthouse.com/font/Bebas-fontfacekit/BEBAS___-webfont.svg#BebasRegular') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+
+h1 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	//font-size: 2rem;
+} 
+
+h2{
+	    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cb{
+	clear:both;
+}
+
+
+
+/* ----------header  -----------*/
+
+
+.meunuAboveWrap{
+	display: none;
+}
+
+.headercontainer{
+	display: none;
+}
+
+#ubermenu-nav-main-218-header-top-menu{
+
+	.ubermenu-main .ubermenu-item-level-0 > .ubermenu-target{
+
+	}
+
+}
+
+
+
+
+/* ---------- holiday tin page css -----------*/
+
+.desc {
+
+height:115px;
+
+}
+
+.desc2 {
+
+height:55px;
+
+}
+
+.tin-head{
+
+margin-bottom:30px;
+
+}
+
+
+/* ----------product page -----------*/
+.productpagewrapper{
+	
+	padding-bottom: 40px;
+
+}
+
+.hero{
+  padding-top: 30px;
+ padding-bottom: 60px;
+}
+
+.heroLeft{
+	   
+	
+}
+.mobileName{
+	padding-bottom: 20px;
+	text-align: center;
+	width: 95%;
+	margin: auto;
+}
+.heroImgWrap{
+	width: 80%;
+	margin: auto;
+}
+.heroImg{
+	width: 100%;
+}
+
+.sendToCartForm{
+	
+}
+.variationContainerWrap{
+
+display: flex;
+	 justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 40px;
+    width: 95%;
+    margin: auto;
+}
+
+.variation_selector_container:nth-of-type(n+2) {
+	padding-left: 4%;
+
+}
+
+
+.variation_button{
+	padding: 10%;
+}
+
+.panel{
+	font-size: 1.3rem;
+}
+
+
+
+
+/* end only demo styles */
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+    height: 20px;
+    width: 20px !important;
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #333;
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: rebeccapurple;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+    background: #EB0E02;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+/*-------- end checkbox---*/
+
+
+
+.productPageName, .catHeadingText{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#333;
+	font-weight: 600;
+
+}
+
+.gbb{
+
+
+color:#333;
+font-size: 1em;
+line-height: 1.1em;
+
+	a{
+		color:#333;
+		text-decoration:none;
+		&:hover{
+			color:#333;
+			text-decoration:none;
+		}
+	}
+
+}
+
+.buyBtnWrap{
+	display: flex;
+	justify-content:center;
+	padding-top: 20px;
+	width: 95%;
+	margin: auto;
+	align-content:center;
+}
+
+.quantityWrap> input[type="number"]{
+	position: relative;
+    padding: .2rem;
+	}
+
+
+.qty_input_field
+
+{
+    height: 21px;
+    background: #f8f7ec;
+    border: solid 1px #bfbfbf;
+    text-align: center
+}
+
+
+.quantityWrap{
+font-family:'BebasNeueRegular', Tahoma, Arial, sans-serif;
+font-size:1em;
+display: flex;
+justify-content:center;
+width: 20%;
+margin-right: 3%;
+border: 1px solid $quantityWrapBorder;
+
+}
+
+
+
+.buyBtn{
+	width: 70%;
+}
+
+.sendToCartBtn{
+	background-color: #FF0D00 !important;
+    color: #fff !important;
+    width:100% !important;
+    //white-space: normal !important;
+
+    &:hover,&:focus{
+    	
+    	background-color: #EB0E02 !important;
+    }
+}
+
+.qtyInput{
+font-size: 1em;
+text-align: center;
+
+}
+
+.belowOrderWrap{
+	padding-top: 40px;
+	text-align: center;
+
+	a{
+		font-size: 1rem;
+		color:#333;
+		text-decoration: underline;
+	}
+}
+
+.guaranteeList{
+
+	width: 95%;
+	margin: auto;
+}
+
+.guaranteeListSection1{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+
+	a{
+		font-size: 1rem;
+	}
+}
+
+.guaranteeListItem2{
+	line-height: 1.5rem;
+}
+
+.guaranteeListSection2{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+
+	li:nth-child(n+2){
+	margin-left: 10px;
+	}
+
+	a{
+		font-size: 1rem;
+	}
+}
+
+.guaranteeListItem1{
+	//margin-right: 10px;
+	img{
+
+	    //width: 30%;
+	}
+}
+
+
+
+.detailsButtons{
+	display: flex;
+	justify-content:center;
+	border-bottom: 1px solid #e1e1e1;
+	a{
+		color:#333;
+		font-size: 1rem;
+		text-decoration: none;
+		text-transform: uppercase;
+		&:hover{
+			font-weight: 500;
+		}
+	}
+}
+
+.panel-title{
+
+	&:hover{
+	//border-bottom: 2px solid #333;
+	}
+}
+
+
+.or-spacer {
+  //margin-top:100px; margin-left:100px; width:400px; 
+  position:relative; 
+  
+  .mask { 
+    overflow:hidden; height:20px; 
+    &:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+      border-radius:125px / 12px;  
+      box-shadow:0 0 8px black;
+    }
+  }
+  span {
+    $size:50px;
+    width:$size; height:$size; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-$size/2;
+    left:50%; margin-left:-$size/2;
+    border-radius:100%;
+    box-shadow:0 2px 4px #999;
+    background:white;
+  }
+  span i {
+    $offset:4px;
+    position:absolute;
+    top:$offset; bottom:$offset;
+    left:$offset; right:$offset;
+    border-radius:100%;
+    border:1px dashed #aaa;
+    
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+    color:#999;
+  }
+}
+
+
+
+
+.headingOne{
+	
+}
+
+.headingTwo{
+	margin-left: 30px;
+}
+
+.details{
+	width:95%;
+	margin: auto;
+}
+
+
+/*--------- Catalog Page -------------*/
+
+.catPageWrapper{
+	width: 95%;
+	margin: auto;
+}
+.catPage{
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catPostContainer{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:stretch;
+	
+}
+
+
+.catPostItem{
+	width: 50%;
+	padding:5px;
+	padding-bottom: 10px;
+	transition: all .2s ease-in-out; 
+
+	&:hover{
+		//border: 1px solid $linkHover;
+		a{
+			color: $linkHover;
+			text-decoration: none;
+		}
+		
+	}
+}
+
+.itemNameLink{
+	color:#333;
+	word-break: break-word;
+	
+	&:hover{
+		//color:$linkHover;
+		//text-decoration: none;
+	}
+}
+
+.catProductImg{
+	width: 100%;
+}
+
+.itemNameHolder{
+	display: flex;
+    flex-direction: column;
+    height: 43px;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+
+
+.itemNameDivider{
+  //margin-top:100px; margin-left:100px; width:400px; 
+  position:relative; 
+  display: block;
+  
+  .mask { 
+    overflow:hidden; height:20px; 
+    &:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+      border-radius:125px / 12px;  
+      box-shadow:0 0 8px black;
+    }
+  }
+  span {
+    $size:50px;
+    width:$size; height:$size; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-$size/2;
+    left:50%; margin-left:-$size/2;
+    border-radius:100%;
+    box-shadow:0 2px 4px #999;
+    background:white;
+  }
+  span i {
+    $offset:4px;
+    position:absolute;
+    top:$offset; bottom:$offset;
+    left:$offset; right:$offset;
+    border-radius:100%;
+    border:1px dashed #aaa;
+    
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+    color:#999;
+  }
+}
+
+
+
+
+/*-------- footer -------------------*/
+.footerContainerInner, .footerContainerInner1{
+	width:95%;
+	margin:auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.foonterContainer1{
+	background: #830a04 url("http://yum.jerrysnuthouse.com/website+images/noisy-texture-100x100-o5-d15-c-a81d18-t0.png");
+	color: #ffffff;
+}
+
+.footerContainer1Btm{
+	display: flex;
+	align-items:center;
+}
+.footerContainer1BtmInner{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer1BtmForm{
+width: 100%;
+}
+.squirrel{
+	display: none;
+}
+
+
+.footerContainer2{
+	background: #fff url(http://yum.jerrysnuthouse.com/website+images/grey_jean.png);
+}
+
+.footerContainerInner2{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.footertext {
+    font-family: 'BebasNeueRegular',Tahoma,Arial,sans-serif;
+    font-size: 2rem;
+    color: #830a04;
+    text-decoration: none;
+    text-align: center;
+}
+
+.emailWrap{
+	width: 90%;
+	margin:auto;
+}
+
+
+.emailEnter{
+	font-size: 1rem;
+}
+
+
+.emailBtnWrap{
+padding-top: 20px;
+width:70%;
+margin: auto;
+}
+
+.emailBtn{
+	background-color: #000000 !important;
+    color: #fff !important;
+    width:100% !important;
+    //white-space: normal !important;
+
+    &:hover,&:focus{
+    	
+    	background-color: #000000 !important;
+    }
+
+
+}
+
+.footerContainer2{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-size: 1.2rem;
+	a{
+		font-size: 1.2rem;
+	}
+}
+
+.footernavcontainer{
+	width: 75%;
+	display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+	a{
+		text-align: center;
+	}
+}
+
+.footernav1{
+
+}
+
+.subhead-white{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.textcenter-green{
+	text-align: center;
+}
+
+.footerSealsList{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+	li{
+		&:nth-child(n+2){
+			padding-top: 8%;
+		}
+	}
+}
+
+.guaranteesquirrel{
+	display: none;
+}
+
+.footerContainerInner5{
+	font-size: 1.2rem;
+}
+
+.inner5Wrap{
+	    display: flex;
+    flex-direction: column;
+    
+    justify-content: z;
+    justify-items: c;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+}
+
+@import"small";
+@import"medium";
+@import"large";
+@import"xl";

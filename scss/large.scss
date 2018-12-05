@@ -1,0 +1,112 @@
+//large.scss
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) {
+
+	.itemNameHolder h2{
+		font-size: 1.5rem;
+	}
+
+/*--------- header -------------*/
+
+.menuAbove{
+	max-width: 1102px;
+	margin: auto;
+}
+
+.headercontainer{
+
+}
+
+.headerInner{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding:20px;
+	}
+
+.logoWrap{
+	width: 100px;
+}
+
+.navContainerAbove{
+margin-left: 10px;
+}
+
+.navContainer{
+	
+	
+}
+
+
+
+#ubermenu-nav-main-218-header-top-menu{
+
+	li a {
+		font-size: 18px;
+	}
+
+}
+
+/*--------Prdouct Page----*/
+
+
+
+.productpage{
+	max-width: 1102px;
+	margin: auto;
+}
+
+.heroImgWrap {
+    width: 85%;
+}
+
+.heroRight{
+width: 42%;
+
+}
+
+
+/*---------Category Page-----------*/
+
+.catPageWrapper {
+    width: 89%;
+}
+.catPostItem{
+	padding-bottom: 35px;
+	width: 25%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.itemNameHolder{
+
+}
+
+
+/*---------Footer-----------*/
+
+.footeNav1Inner{
+	
+}
+
+.footernavtext1{
+	width: initial;
+	margin:initial;
+	text-align: left;
+}
+
+.guaranteesquirrel{
+	//display: block;
+	//margin-right: 20px;
+}
+
+.footerContainer1Btm{
+
+}
+
+
+
+
+
+  } /* min-width 641px, medium screens */

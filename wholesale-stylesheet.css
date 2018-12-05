@@ -1,0 +1,1222 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.row
+{
+    float:left;
+    clear:both;
+}
+
+div.col
+{
+    float:left;
+}
+
+div#content_container
+{
+width:800px;
+margin:auto;
+}
+
+/*begin styling for store elements on wordpress site*/
+.qty_input_field
+{
+    display: block;
+    height: 21px;
+    width: 40px;
+    margin-right:0px;
+    background: #f8f7ec;
+    border: solid 1px #bfbfbf;
+    text-align: center
+}
+
+
+div.shaded_background
+{
+    background-color:#cfe2f4;
+
+}
+
+.shoppingbag 
+{
+position:relative;
+left:920px;
+top:-135px;
+width:180px;
+}
+.shoppingbag a
+{
+width:100%;
+height:100%;
+}
+
+/* End styling for store elements on wordpress site */
+
+
+body
+{
+margin:0px auto;
+padding:0px;
+width:100%;
+font:normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+
+}
+.headercontainer {
+height:247px;
+font:normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+background:#000000 url("images/bg-chalk-texture.jpg") no-repeat center center;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+min-width:1280px;
+width:100%;
+}
+.container
+{
+margin:0 auto;
+display:block;
+width:1100px;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+}
+
+.ucstore_container
+{
+margin:0 auto;
+display:block;
+width:1100px;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+height:100%;
+}
+.container2
+{
+width:1100px;
+margin:0px auto;
+}
+.divider {
+margin:0 auto;
+width:900px;
+position:relative;
+top:-145px;
+left:80px;
+}
+img
+{
+border:none;
+margin:0px;
+padding:0px;
+outline:none;
+}
+a
+{
+/*color:#EAEABC;*/
+color:#0000ff;
+text-decoration:underline;
+font-family: Arial, Helvetica, sans-serif;
+outline:none;
+}
+a:hover
+{
+text-decoration:none;
+font-family: Arial, Helvetica, sans-serif;
+}
+form
+{
+margin:0px;
+padding:0px;
+}
+P
+{
+margin:16px 0px;
+}
+.left
+{
+float:left;
+}
+.right
+{
+float:right;
+}
+.footer
+{
+color:#3a3838;
+font:normal 13px/16px Arial, Helvetica, sans-serif;
+height:30px;
+}
+
+.footer-box-mid
+{
+background:url(images/footer-box-mid.png) left top repeat-x;
+height:165px;
+color:#a1a1a1;
+font:normal 20px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+.footer-box-mid a
+{
+text-decoration:underline;
+color:#a1a1a1;
+font:normal 20px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+.footer-box-mid a:hover
+{
+text-decoration:none;
+}
+.newsletter
+{
+background:url(images/newsletter-mid.png) left top repeat-x;
+}
+.input-box-main
+{
+background:url(images/input-box.jpg) center top no-repeat;
+width:229px;
+height:27px;
+display:block;
+}
+.input-box
+{
+width:209px;
+padding-left:9px;
+padding-right:9px;
+height:27px;
+background:none;
+border:none;
+color:#393737;
+font:normal 13px/18px Arial, Helvetica, sans-serif;
+}
+
+.photo-main
+{
+position:relative;
+width:273px;
+height:291px;
+}
+.photo-main-text
+{
+position:absolute;
+left:20px;
+top:238px;
+float:left;
+}
+
+.photo-main-home
+{
+position:relative;
+width:220px;
+height:291px;
+}
+
+.photo-main-text-home-right
+{
+position:absolute;
+left:10px;
+top:185px;
+float:left;
+}
+.photo-main-text-home-center
+{
+position:absolute;
+left:10px;
+top:185px;
+float:left;
+}
+.photo-main-text-home-left
+{
+position:absolute;
+left:10px;
+top:185px;
+float:left;
+}
+
+.photo-big-main
+{
+position:relative;
+}
+.photo-big-main-text
+{
+position:absolute;
+left:35px;
+top:299px;
+float:left;
+}
+
+
+/* Header Nav */
+.totalnav
+{
+position:relative;
+top:100px;
+left:200px;
+width:900px;
+margin-left:100px;
+padding-left:100px;
+}
+.logo
+{
+position:relative;
+left:30px;
+top:34px;
+width:150px;
+height:150px;
+margin-right:10px;
+}
+#navcontainerholder
+{
+width:950px;
+}
+.navcontainerbelow
+{
+position:relative;
+padding-top:20px;
+width:950px;
+height:50px;
+top:-165px;
+left:170px;
+}
+.navcontainerbelow ul
+{
+list-style-type:none;
+display:inline;
+margin:0px;
+padding:0px;
+}
+.navcontainerbelow ul li
+{
+background:url(images/menu-line.jpg) right 13px no-repeat;
+float:right;
+padding:0px 1px 0 5px;
+}
+.navcontainerbelow ul li:first-child
+{
+background:none;
+}
+.navcontainerbelow ul li span
+{
+display:none;
+}
+.navcontainerabove
+{
+position:relative;
+padding-top:20px;
+width:890px;
+height:50px;
+top:-150px;
+left:200px;
+}
+.navcontainerabove ul
+{
+list-style-type:none;
+display:inline;
+margin:0px;
+padding:0px;
+}
+.navcontainerabove ul li
+{
+background:url(images/menu-line.jpg) right 13px no-repeat;
+float:right;
+padding:0px 1px 0 5px;
+}
+.navcontainerabove ul li:first-child
+{
+background:none;
+}
+.navcontainerabove ul li span
+{
+display:none;
+}
+
+
+
+.navcontainer_ucstore
+{
+position:relative;
+padding-top:20px;
+width:890px;
+height:50px;
+top:-150px;
+left:200px;
+}
+.navcontainer_ucstore ul
+{
+list-style-type:none;
+display:inline;
+margin:0px;
+padding:0px;
+}
+.navcontainer_ucstore ul li
+{
+background:url(images/menu-line-v2.jpg) right 13px no-repeat;
+float:right;
+padding:0px 1px 0 5px;
+font:30px helvetica;
+}
+.navcontainer_ucstore ul li:first-child
+{
+background:none;
+}
+.navcontainer_ucstore ul li span
+{
+display:none;
+}
+
+.navcontainer_ucstore ul li a
+{
+color:#ffffff;
+font-size:40px;
+text-decoration:none;
+font-family:helvetica;
+margin-right:13px;
+}
+
+/*------ nav below uc store */
+
+.navcontainerbelow_ucstore
+{
+position: relative;
+padding-top: 5px;
+width: 110px;
+height: 40px;
+top: -130px;
+margin-left: 215px;
+border-style: solid;
+border-radius: 15px;
+border-color: #8AC415;
+text-align: center;
+background: url(http://www.jerrysnuthouse.com/wp-content/themes/jerry/images/bg-chalk-texture-light.jpg);
+float:left;
+}
+.navcontainerbelow_ucstore ul
+{
+list-style-type:none;
+display:inline;
+margin:0px;
+padding:0px;
+}
+.navcontainerbelow_ucstore ul li
+{
+background:url(images/menu-line.jpg) right 13px no-repeat;
+float:right;
+padding:0px 1px 0 5px;
+font:30px helvetica;
+}
+.navcontainerbelow_ucstore ul li:first-child
+{
+background:none;
+}
+.navcontainerbelow_ucstore ul li span
+{
+display:none;
+}
+
+.navcontainerbelow_ucstore ul li a
+{
+color:#ffffff;
+font-size:30px;
+font-weight:bold;
+text-decoration:none;
+font-family:helvetica;
+margin-right:4px;
+}
+
+.navcontainerbelow_ucstore ul li a:hover
+{
+color:#8AC415;
+font-size:30px;
+font-weight:bold;
+text-decoration:none;
+font-family:helvetica;
+
+}
+
+
+/*------ nav below uc store NUMERO DOS */
+
+.navcontainerbelow_ucstore_dos
+{
+position: relative;
+padding-top: 5px;
+width: 130px;
+height: 40px;
+top: -130px;
+margin-left: 20px;
+border-style: solid;
+border-radius: 15px;
+border-color: #8AC415;
+text-align: center;
+background: url(http://www.jerrysnuthouse.com/wp-content/themes/jerry/images/bg-chalk-texture-light.jpg);
+float:left;
+}
+.navcontainerbelow_ucstore_dos ul
+{
+list-style-type:none;
+display:inline;
+margin:0px;
+padding:0px;
+}
+.navcontainerbelow_ucstore_dos ul li
+{
+background:url(images/menu-line.jpg) right 13px no-repeat;
+float:right;
+padding:0px 1px 0 5px;
+font:30px helvetica;
+}
+.navcontainerbelow_ucstore_dos ul li:first-child
+{
+background:none;
+}
+.navcontainerbelow_ucstore_dos ul li span
+{
+display:none;
+}
+
+.navcontainerbelow_ucstore_dos ul li a
+{
+color:#ffffff;
+font-size:30px;
+font-weight:bold;
+text-decoration:none;
+font-family:helvetica;
+margin-right:4px;
+}
+
+.navcontainerbelow_ucstore_dos ul li a:hover
+{
+color:#8AC415;
+font-size:30px;
+font-weight:bold;
+text-decoration:none;
+font-family:helvetica;
+
+}
+
+
+.giftsbig
+{
+background:url(images/gifts.png) center top no-repeat;
+width:160px;
+height:48px;
+float:left;
+}
+.giftsbig:hover
+{
+background:url(images/gifts.png) center bottom no-repeat;
+}
+.product
+{
+background:url(images/product.png) center top no-repeat;
+width:125px;
+height:48px;
+float:left;
+}
+.product:hover
+{
+background:url(images/product.png) center bottom no-repeat;
+}
+.business
+{
+background:url(images/business.png) center top no-repeat;
+width:180px;
+height:48px;
+float:left;
+}
+.business:hover
+{
+background:url(images/business.png) center bottom no-repeat;
+}
+.jerry
+{
+background:url(images/jerry.png) center top no-repeat;
+width:175px;
+height:48px;
+float:left;
+}
+.jerry:hover
+{
+background:url(images/jerry.png) center bottom no-repeat;
+}
+.contact
+{
+background:url(images/contact.png) center top no-repeat;
+width:140px;
+height:48px;
+float:left;
+}
+.contact:hover
+{
+background:url(images/contact.png) center bottom no-repeat;
+
+}
+.blog
+{
+background:url(images/blog.png) center top no-repeat;
+width:68px;
+height:48px;
+float:left;
+}
+.blog:hover
+{
+background:url(images/blog.png) center bottom no-repeat;
+}
+.candy
+{
+background:url(images/candy.png) left top no-repeat;
+width:70px;
+height:35px;
+float:left;
+}
+.candy:hover
+{
+background:url(images/candy.png) left bottom no-repeat;
+width:70px;
+height:35px;
+float:left;
+}
+.chocoandyogurt
+{
+background:url(images/chocolateandyogurt.png) left top no-repeat;
+width:180px;
+height:35px;
+float:left;
+}
+.chocoandyogurt:hover
+{
+background:url(images/chocolateandyogurt.png) left bottom no-repeat;
+width:180px;
+height:35px;
+float:left;
+}
+.driedfruit
+{
+background:url(images/driedfruit.png) left top no-repeat;
+width:110px;
+height:35px;
+float:left;
+}
+.driedfruit:hover
+{
+background:url(images/driedfruit.png) left bottom no-repeat;
+width:110px;
+height:35px;
+float:left;
+}
+.nuts
+{
+background:url(images/nuts.png) left top no-repeat;
+width:55px;
+height:35px;
+float:left;
+}
+.nuts:hover
+{
+background:url(images/nuts.png) left bottom no-repeat;
+width:55px;
+height:35px;
+float:left;
+}
+.popcorn
+{
+background:url(images/popcorn.png) left top no-repeat;
+width:87px;
+height:35px;
+float:left;
+}
+.popcorn:hover
+{
+background:url(images/popcorn.png) left bottom no-repeat;
+width:87px;
+height:35px;
+float:left;
+}
+.snacks
+{
+background:url(images/snacks.png) left top no-repeat;
+width:75px;
+height:35px;
+float:left;
+}
+.snacks:hover
+{
+background:url(images/snacks.png) left bottom no-repeat;
+width:75px;
+height:35px;
+float:left;
+}
+.trailmix
+{
+background:url(images/trailmix.png) left top no-repeat;
+width:90px;
+height:35px;
+float:left;
+}
+.trailmix:hover
+{
+background:url(images/trailmix.png) left bottom no-repeat;
+width:90px;
+height:35px;
+float:left;
+}
+.gifts
+{
+background:url(images/giftideas.png) left top no-repeat;
+width:100px;
+height:35px;
+float:left;
+}
+.gifts:hover
+{
+background:url(images/giftideas.png) left bottom no-repeat;
+width:100px;
+height:35px;
+float:left;
+}
+.top10
+{
+background:url(images/top10a.png) left top no-repeat;
+width:90px;
+height:35px;
+float:left;
+}
+.top10:hover
+{
+background:url(images/top10a.png) left bottom no-repeat;
+width:90px;
+height:35px;
+float:left;
+}
+.heading-text
+{
+font-family: 'Impact', 'Charcoal', 'sans-serif';
+font-size:70px;
+line-height:62px;
+color:#000;
+}
+.heading-text-red
+{
+font-family:'Impact', 'Charcoal', 'sans-serif';
+font-size:70px;
+line-height:62px;
+color:#830a04;
+}
+h1
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font:bold 20px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+h1 a
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font:normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+h1 a:hover
+{
+padding:0px;
+margin:0px;
+color:#000;
+font:normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+h4
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font:bold 16px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform:none;
+}
+
+h2
+{
+padding:0px;
+margin:0px;
+color:#6d7470;
+font:bold 13px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform:none;
+}
+
+h2 a
+{
+color:#6d7470;
+text-decoration:none;
+}
+
+h2 a:hover
+{
+color:#108b40;
+}
+
+h3
+{
+padding:0px;
+margin:0px;
+color:#6d7470;
+font:normal 13px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform:none;
+}
+
+h3 a
+{
+color:#6d7470;
+text-decoration:none;
+}
+
+h3 a:hover
+{
+color:#108b40;
+}
+h5
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font:bold 17px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform:none;
+}
+h5 a
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font:bold 17px/18px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+h5 a:hover
+{
+padding:0px;
+margin:0px;
+color:#000;
+font:bold 17px/18px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+h6
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font: 20px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+
+h7
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font: 18px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+
+h7 a
+{
+padding:0px;
+margin:0px;
+color:#00F;
+font:normal 18px/22px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:underline;
+}
+
+
+.itemname
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font:bold 20px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.itemname a
+{
+padding:0px;
+margin:0px;
+color:#830a04;
+font:normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+.itemname a:hover
+{
+padding:0px;
+margin:0px;
+color:#000;
+font:normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+.body_cont a {
+color:#00F;
+font-weight:bold;
+text-decoration:underline;
+}
+
+.body_cont a:hover{
+color:#000;
+}
+
+
+.blog-nav
+{
+/*float:left;*/
+padding:0px 0 10px 0;
+margin-left:30px;
+}
+.blog-nav ul
+{
+list-style-type:none;
+display:block;
+margin:0px;
+padding:5px 0 0 10px;
+}
+.blog-nav ul li
+{
+display:block;
+list-style-type:none;
+background:url(images/blt.png) 5px 7px no-repeat;
+padding-left:19px;
+padding-right:8px;
+padding-top:3px;
+padding-bottom:3px;
+margin:0px;
+color:#333333;
+font:bold 13px/16px Verdana, Arial, Helvetica, sans-serif;
+}
+.blog-nav ul li a
+{
+text-decoration:none;
+color:33333;
+font:bold 13px/16px Verdana, Arial, Helvetica, sans-serif;
+}
+.blog-nav ul li a:hover
+{
+text-decoration:none;
+color:#b60404;
+}
+
+
+.heading-bg
+{
+background: url(images/jerrys-ribbon-squirrel.png) no-repeat;
+/* background:#760903; */
+height:50px;
+width:250px;
+min-width:300px;
+/* color:#f7edc9; */
+color:#ffffff;
+font:bold 14px/22px Verdana, Arial, Helvetica, sans-serif;
+text-align:center;
+padding-left:11px;
+padding-right:11px;
+margin-left:30px;
+padding-left:30px;
+background-size:cover;
+}
+
+.left-img
+{
+margin-right:25px;
+margin-top:8px;
+}
+
+.input-box2
+{
+width:250px;
+padding-left:9px;
+padding-right:9px;
+height:22px;
+background:#fff;
+border:1px solid #790a03;
+color:#393737;
+font:normal 13px/18px Arial, Helvetica, sans-serif;
+margin:0px;
+}
+.input-box2-big
+{
+width:250px;
+padding-left:9px;
+padding-right:9px;
+margin-left:6px;
+height:200px;
+background:#fff;
+border:1px solid #790a03;
+color:#393737;
+font:normal 13px/18px Arial, Helvetica, sans-serif;
+}
+
+.submit-bt
+{
+background:url(images/submit1.jpg) left top no-repeat;
+width:128px;
+height:27px;
+padding-bottom:5px;
+font:bold 12px/13px Arial, Helvetica, sans-serif;
+border:0px;
+float:left;
+color:#fff;
+}
+.comment-awaiting-moderation
+{
+font-style:normal;
+}
+.fn
+{
+font-style:normal;
+}
+.comment-author img
+{
+margin-right:10px;
+}
+
+.firstletter {
+	float: left;
+	font-size: 3em;
+	line-height: .75;
+	font-weight: bold;
+	margin-right:3px;
+}
+
+.category-text {
+       margin-left:50px;
+       font:normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+color:00000;
+width:800px;
+}
+
+.category-text-center {  
+       font:normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.table-home {
+margin-top:-40px;
+}
+
+.feedme {
+float:right;
+position:absolute;
+left:800px;
+top:400px;
+}
+.belowslider {
+position:relative;
+top:-100px;
+left:-15px;
+}
+.post {
+margin-top:-100px;
+}
+.heading-space {
+margin-top:50px;
+}
+.mainpage {
+margin:0 auto;
+/*display:block;*/
+width:1100px;
+height:250px;
+}
+.catalogpage {
+margin: auto;
+display:block;
+width:950px;
+height:auto;
+margin-top:-150px;
+float:right;
+margin-left:5px;
+}
+.productpage {
+margin:0 auto;
+display:block;
+width:920px;
+height:250px;
+margin-top:-150px;
+margin-left:355px;
+}
+.sliderup {
+position:relative;
+top:-100px;
+left:-15px;
+}
+
+.searchform {
+position:relative;
+top:-318px;
+left:630px;
+width:300px;
+}
+.reviewbar {
+/* border:2px solid;
+border-color:#95c02e; */
+width:300px;
+max-width:300px;
+height:auto;
+display:block;
+position:fixed;
+top:280px;
+left:0;
+
+}
+.catalogpagewrapper {
+width:1280px;
+height:100%;
+}
+
+.ribbon {
+background: url(images/jerrys-ribbon-squirrel.png) no-repeat;
+}
+
+.ribbonlong {
+background:url(images/jerrys-ribbon-long.png) no-repeat;
+width:100%;
+height:90px;
+}
+
+/*
+
+Crumb Trail
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	
+.crumb {
+	width: 800px;
+	font-size: 15px;
+        position:relative;
+        top:-100px;
+}
+
+	.crumb li {
+		float: left;
+	}
+	
+		.crumb li a {
+			margin: 0 6px 0 0;
+			padding: 0 12px 2px 0;
+			float: left;
+			color: #AAA;
+			background: transparent url(../images/raquo_gray.gif) right center no-repeat;
+		}
+		
+			.crumb li a:hover {
+				color: #666;
+			}
+/* Begin ULTRACART STUFF ------------------- */
+.wholesalesignin {
+width: 275px;
+height: 200px;
+background: url(http://www.jerrysnuthouse.com/wp-content/themes/jerry/images/bg-chalk-texture.jpg);
+display: block;
+float: left;
+border-radius: 15px;
+border-width:5px;
+border-color:#c2c2c3;
+border-style:outset;
+z-index:1;
+opacity:.8;
+position:relative;
+left:20px;
+}
+.boxbutton{
+width:90%;
+height:90%;
+margin:auto;
+}
+
+.wholesalerequest {
+width: 370px;
+height: 200px;
+/*background: #8ac415; */
+background: url(http://www.jerrysnuthouse.com/wp-content/themes/jerry/images/bg-chalk-texture.jpg);
+display: block;
+float: left;
+border-radius: 15px;
+border-width:5px;
+border-color:#c2c2c3;
+border-style:outset;
+-moz-box-shadow: 0 5px 5px 5px #888;
+-webkit-box-shadow: 0 5px 5px 5px#888;
+box-shadow: 0 5px 5px 5px #888;
+z-index:2;
+position:relative;
+}
+
+.gotoretail {
+width: 275px;
+height: 200px;
+background: url(http://www.jerrysnuthouse.com/wp-content/themes/jerry/images/bg-chalk-texture.jpg);
+display: block;
+float: left;
+border-radius: 15px;
+border-width:5px;
+border-color:#c2c2c3;
+border-style:outset;
+z-index:1;
+opacity:.8;
+position:relative;
+right:10px;
+}
+
+#loginholder .wholesalesignin .boxbutton h2  {
+color: #ffffff;
+font-size: 30px;
+line-height: 120%;
+margin-top: 5%;
+text-align:center;
+}
+
+#loginholder .wholesalesignin .boxbutton h2 a {
+color: #ffffff;
+}
+
+#loginholder .wholesalesignin .boxbutton h2 a:hover {
+color: #8ac415;
+}
+
+
+/*----------*/
+#loginholder .wholesalerequest h2  {
+color: #ffffff;
+font-size: 30px;
+line-height: 120%;
+margin-top: 5%;
+text-align:center;
+}
+
+#loginholder .wholesalerequest h2 a {
+color: #ffffff;
+}
+
+#loginholder .wholesalerequest h2 a:hover {
+color: #8ac415;
+}
+
+/*----------*/
+#loginholder .gotoretail h2  {
+color: #ffffff;
+font-size: 30px;
+line-height: 120%;
+margin-top: 5%;
+text-align:center;
+}
+
+#loginholder .gotoretail h2 a {
+color: #ffffff;
+}
+
+#loginholder .gotoretail h2 a:hover {
+color: #8ac415;
+}
+
+
+#loginholder {
+width:80%;
+margin-right:auto;
+margin-left:auto;
+height:200px;
+margin-bottom:50px;
+}

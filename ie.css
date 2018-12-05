@@ -1,0 +1,661 @@
+@charset "utf-8";
+
+div.row {
+float : left;
+clear : both;
+}
+div.col {
+float : left;
+}
+div#content_container {
+width : 800px;
+margin : auto;
+}
+.qty_input_field {
+display : block;
+height : 21px;
+width : 40px;
+margin-right : 0;
+background : #f8f7ec;
+border : 1px solid #bfbfbf;
+text-align : center;
+}
+div.shaded_background {
+background-color : #cfe2f4;
+}
+.shoppingbag {
+position : relative;
+left : 920px;
+top : -135px;
+width : 180px;
+}
+.shoppingbag a {
+width : 100%;
+height : 100%;
+}
+body {
+margin : 0 auto;
+padding : 0;
+width : 100%;
+font : normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+.headercontainer {
+height : 247px;
+font : normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+background : #000000 url("images/bg-chalk-texture.jpg") no-repeat [center, center];
+min-width : 1280px;
+width : 100%;
+}
+.container {
+margin : 0 auto;
+display : block;
+width : 1100px;
+}
+.container2 {
+width : 1100px;
+margin : 0 auto;
+}
+.divider {
+margin : 0 auto;
+width : 900px;
+position : relative;
+top : -145px;
+left : 80px;
+}
+img {
+border : none;
+margin : 0;
+padding : 0;
+outline : none;
+}
+a {
+color : #0000ff;
+text-decoration : underline;
+font-family : Arial, Helvetica, sans-serif;
+outline : none;
+}
+a:hover {
+text-decoration : none;
+font-family : Arial, Helvetica, sans-serif;
+}
+form {
+margin : 0;
+padding : 0;
+}
+P {
+margin : 16px 0;
+}
+.left {
+float : left;
+}
+.right {
+float : right;
+}
+.footer {
+color : #3a3838;
+font : normal 13px/16px Arial, Helvetica, sans-serif;
+height : 30px;
+}
+.footer-box-mid {
+height : 165px;
+color : #a1a1a1;
+font : normal 20px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+.footer-box-mid a {
+text-decoration : underline;
+color : #a1a1a1;
+font : normal 20px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+.footer-box-mid a:hover {
+text-decoration : none;
+}
+.input-box-main {
+width : 229px;
+height : 27px;
+display : block;
+}
+.input-box {
+width : 209px;
+padding-left : 9px;
+padding-right : 9px;
+height : 27px;
+background : none;
+border : none;
+color : #393737;
+font : normal 13px/18px Arial, Helvetica, sans-serif;
+}
+.photo-main {
+position : relative;
+width : 273px;
+height : 291px;
+}
+.photo-main-text {
+position : absolute;
+left : 20px;
+top : 238px;
+float : left;
+}
+.photo-main-home {
+position : relative;
+width : 220px;
+height : 291px;
+}
+.photo-main-text-home-right {
+position : absolute;
+left : 10px;
+top : 185px;
+float : left;
+}
+.photo-main-text-home-center {
+position : absolute;
+left : 10px;
+top : 185px;
+float : left;
+}
+.photo-main-text-home-left {
+position : absolute;
+left : 10px;
+top : 185px;
+float : left;
+}
+.photo-big-main {
+position : relative;
+}
+.photo-big-main-text {
+position : absolute;
+left : 35px;
+top : 299px;
+float : left;
+}
+.totalnav {
+position : relative;
+top : 100px;
+left : 200px;
+width : 900px;
+margin-left : 100px;
+padding-left : 100px;
+}
+.logo {
+position : relative;
+left : 30px;
+top : 34px;
+width : 150px;
+height : 150px;
+margin-right : 10px;
+}
+.navcontainerbelow {
+position : relative;
+padding-top : 20px;
+width : 950px;
+height : 50px;
+top : -165px;
+left : 170px;
+}
+.navcontainerbelow ul {
+list-style-type : none;
+display : inline;
+margin : 0;
+padding : 0;
+}
+.navcontainerbelow ul li {
+float : right;
+padding : 0 1px 0 5px;
+}
+.navcontainerbelow ul li:first-child {
+background : none;
+}
+.navcontainerbelow ul li span {
+display : none;
+}
+.navcontainerabove {
+position : relative;
+padding-top : 20px;
+width : 890px;
+height : 50px;
+top : -150px;
+left : 200px;
+}
+.navcontainerabove ul {
+list-style-type : none;
+display : inline;
+margin : 0;
+padding : 0;
+}
+.navcontainerabove ul li {
+float : right;
+padding : 0 1px 0 5px;
+}
+.navcontainerabove ul li:first-child {
+background : none;
+}
+.navcontainerabove ul li span {
+display : none;
+}
+.giftsbig {
+width : 160px;
+height : 48px;
+float : left;
+}
+.product {
+width : 125px;
+height : 48px;
+float : left;
+}
+.business {
+width : 180px;
+height : 48px;
+float : left;
+}
+.jerry {
+width : 175px;
+height : 48px;
+float : left;
+}
+.contact {
+width : 140px;
+height : 48px;
+float : left;
+}
+.blog {
+width : 68px;
+height : 48px;
+float : left;
+}
+.candy {
+width : 70px;
+height : 35px;
+float : left;
+}
+.candy:hover {
+width : 70px;
+height : 35px;
+float : left;
+}
+.chocoandyogurt {
+width : 180px;
+height : 35px;
+float : left;
+}
+.chocoandyogurt:hover {
+width : 180px;
+height : 35px;
+float : left;
+}
+.driedfruit {
+width : 110px;
+height : 35px;
+float : left;
+}
+.driedfruit:hover {
+width : 110px;
+height : 35px;
+float : left;
+}
+.nuts {
+width : 55px;
+height : 35px;
+float : left;
+}
+.nuts:hover {
+width : 55px;
+height : 35px;
+float : left;
+}
+.popcorn {
+width : 87px;
+height : 35px;
+float : left;
+}
+.popcorn:hover {
+width : 87px;
+height : 35px;
+float : left;
+}
+.snacks {
+width : 75px;
+height : 35px;
+float : left;
+}
+.snacks:hover {
+width : 75px;
+height : 35px;
+float : left;
+}
+.trailmix {
+width : 90px;
+height : 35px;
+float : left;
+}
+.trailmix:hover {
+width : 90px;
+height : 35px;
+float : left;
+}
+.gifts {
+width : 100px;
+height : 35px;
+float : left;
+}
+.gifts:hover {
+width : 100px;
+height : 35px;
+float : left;
+}
+.top10 {
+width : 90px;
+height : 35px;
+float : left;
+}
+.top10:hover {
+width : 90px;
+height : 35px;
+float : left;
+}
+.heading-text {
+font-size : 70px;
+line-height : 62px;
+color : #000;
+}
+.heading-text-red {
+font-size : 70px;
+line-height : 62px;
+color : #830a04;
+}
+h1 {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : bold 20px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+h1 a {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration : none;
+}
+h1 a:hover {
+padding : 0;
+margin : 0;
+color : #000;
+font : normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration : none;
+}
+h4 {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : bold 16px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform : none;
+}
+h2 {
+padding : 0;
+margin : 0;
+color : #6d7470;
+font : bold 13px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform : none;
+}
+h2 a {
+color : #6d7470;
+text-decoration : none;
+}
+h2 a:hover {
+color : #108b40;
+}
+h3 {
+padding : 0;
+margin : 0;
+color : #6d7470;
+font : normal 13px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform : none;
+}
+h3 a {
+color : #6d7470;
+text-decoration : none;
+}
+h3 a:hover {
+color : #108b40;
+}
+h5 {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : bold 17px/18px Verdana, Arial, Helvetica, sans-serif;
+text-transform : none;
+}
+h5 a {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : bold 17px/18px Verdana, Arial, Helvetica, sans-serif;
+text-decoration : none;
+}
+h5 a:hover {
+padding : 0;
+margin : 0;
+color : #000;
+font : bold 17px/18px Verdana, Arial, Helvetica, sans-serif;
+text-decoration : none;
+}
+h6 {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : 20px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+h7 {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : 18px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+h7 a {
+padding : 0;
+margin : 0;
+color : #00f;
+font : normal 18px/22px Verdana, Arial, Helvetica, sans-serif;
+text-decoration : underline;
+}
+.itemname {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : bold 20px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+.itemname a {
+padding : 0;
+margin : 0;
+color : #830a04;
+font : normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration : none;
+}
+.itemname a:hover {
+padding : 0;
+margin : 0;
+color : #000;
+font : normal 20px/24px Verdana, Arial, Helvetica, sans-serif;
+text-decoration : none;
+}
+.body_cont a {
+color : #00f;
+font-weight : bold;
+text-decoration : underline;
+}
+.body_cont a:hover {
+color : #000;
+}
+.blog-nav {
+padding : 0 0 10px 0;
+margin-left : 30px;
+}
+.blog-nav ul {
+list-style-type : none;
+display : block;
+margin : 0;
+padding : 5px 0 0 10px;
+}
+.blog-nav ul li {
+display : block;
+list-style-type : none;
+padding-left : 19px;
+padding-right : 8px;
+padding-top : 3px;
+padding-bottom : 3px;
+margin : 0;
+color : #333333;
+font : bold 13px/16px Verdana, Arial, Helvetica, sans-serif;
+}
+.blog-nav ul li a {
+text-decoration : none;
+font : bold 13px/16px Verdana, Arial, Helvetica, sans-serif;
+}
+.blog-nav ul li a:hover {
+text-decoration : none;
+color : #b60404;
+}
+.heading-bg {
+background : url(images/jerrys-ribbon-squirrel.png) no-repeat;
+height : 50px;
+width : 250px;
+min-width : 300px;
+color : #ffffff;
+font : bold 14px/22px Verdana, Arial, Helvetica, sans-serif;
+text-align : center;
+padding-left : 11px;
+padding-right : 11px;
+margin-left : 30px;
+padding-left : 30px;
+}
+.left-img {
+margin-right : 25px;
+margin-top : 8px;
+}
+.input-box2 {
+width : 250px;
+padding-left : 9px;
+padding-right : 9px;
+height : 22px;
+background : #fff;
+border : 1px solid #790a03;
+color : #393737;
+font : normal 13px/18px Arial, Helvetica, sans-serif;
+margin : 0;
+}
+.input-box2-big {
+width : 250px;
+padding-left : 9px;
+padding-right : 9px;
+margin-left : 6px;
+height : 200px;
+background : #fff;
+border : 1px solid #790a03;
+color : #393737;
+font : normal 13px/18px Arial, Helvetica, sans-serif;
+}
+.submit-bt {
+width : 128px;
+height : 27px;
+padding-bottom : 5px;
+font : bold 12px/13px Arial, Helvetica, sans-serif;
+border : 0;
+float : left;
+color : #fff;
+}
+.comment-awaiting-moderation {
+font-style : normal;
+}
+.fn {
+font-style : normal;
+}
+.comment-author img {
+margin-right : 10px;
+}
+.firstletter {
+float : left;
+font-size : 3em;
+line-height : 0.75;
+font-weight : bold;
+margin-right : 3px;
+}
+.category-text {
+margin-left : 50px;
+font : normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+width : 800px;
+}
+.category-text-center {
+font : normal 17px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+.table-home {
+margin-top : -40px;
+}
+.feedme {
+float : right;
+position : absolute;
+left : 800px;
+top : 400px;
+}
+.belowslider {
+position : relative;
+top : -165px;
+left : -15px;
+}
+.post {
+margin-top : -100px;
+}
+.heading-space {
+margin-top : 50px;
+}
+.mainpage {
+margin : 0 auto;
+width : 1100px;
+height : 250px;
+}
+.catalogpage {
+margin : auto;
+display : block;
+width : 950px;
+height : auto;
+margin-top : -150px;
+float : right;
+margin-left : 5px;
+}
+.productpage {
+margin : 0 auto;
+display : block;
+width : 920px;
+height : 250px;
+margin-top : -150px;
+margin-left : 355px;
+}
+.sliderup {
+position : relative;
+top : -150px;
+left : -15px;
+}
+.searchform {
+position : relative;
+top : -318px;
+left : 670px;
+width : 250px;
+}
+.reviewbar {
+width : 300px;
+max-width : 300px;
+height : auto;
+display : block;
+position : fixed;
+top : 280px;
+left : 0;
+}
+.catalogpagewrapper {
+width : 1280px;
+height : 100%;
+}
+.ribbon {
+background : url(images/jerrys-ribbon-squirrel.png) no-repeat;
+}
+.ribbonlong {
+background : url(images/jerrys-ribbon-long.png) no-repeat;
+width : 100%;
+height : 90px;
+}

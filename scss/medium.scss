@@ -1,0 +1,300 @@
+//medium.scss
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em){
+
+
+h2{
+	font-size: 1.5rem;
+}
+
+
+
+
+
+/*--------- header -------------*/
+
+.menuAboveWrap{
+	display: block;
+	position: fixed;
+	width: 100%;
+	background-color: #000000;
+	z-index: 1000;
+	
+}
+
+.menuAbove{
+	
+	//padding-top: 5px;
+}
+
+.fa-md{
+	font-size: 2em;
+}
+
+.aboveTel{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+.aboveTelSpan{
+	font-size: 18px;
+}
+
+.headerSpacer{
+	    width: 90%;
+    margin: auto;
+}
+
+.headercontainer{
+	display: block;
+	//background: #000 url("http://yum.jerrysnuthouse.com/website+images/bg-chalk-texture.jpg") no-repeat center center;
+	background-size: cover;
+	margin-top: 45px;
+}
+
+.headerInner{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding:20px;
+}
+
+.logoWrap{
+	width: 100px;
+}
+.navContainer{
+	margin-left: 10px;
+}
+
+
+#ubermenu-nav-main-218-header-top-menu{
+
+
+	li{
+
+		.ubermenu-items-align-center{
+		text-align: left !important;
+		}
+
+		&:hover{
+			a{
+				//background:transparent;
+			}
+		}
+		
+		a {
+		font-size: 18px;
+		}
+	}
+}
+
+
+
+/*--------- header -------------*/
+#ubermenu-nav-main-218-header-top-menu{
+
+	li a {
+		font-size: 16px;
+	}
+
+}
+
+/*--------- Product Page -------------*/
+
+
+.productpagewrapper{
+	padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+
+.productpage{
+	//width: 1102px;
+	margin: auto;
+}
+
+.hero{
+	display: flex;
+	justify-content:center;
+	
+}
+
+
+.heroLeft{
+
+width:55%;
+}
+
+.heroImgWrap {
+    width: 100%;
+}
+
+.heroRight{
+width: 44%;
+
+}
+
+.productPageName{
+	//font-size: 30px;
+	text-align: center;
+	}
+
+.details{
+	width: 80%;
+}	
+
+
+.detailsButtons{
+
+	a{
+		font-size: .75em;
+	}
+
+}
+
+
+/*--------- Category Page -------------*/
+.catPageWrapper{
+	padding-top: 20px;
+}
+
+.catHeadingContainer{
+	padding-bottom: 20px;
+}
+.catPostItem{
+	padding-bottom: 25px;
+	width: 33%;
+}
+.itemNameHolder{
+	display: flex;
+    flex-direction: column;
+    height: 54px;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+
+
+/*------- Footer----------*/
+
+
+.emailWrap{
+	width: 70%;
+	
+}
+
+.emailBtnWrap{
+width:70%;
+}
+.footerContainer1Btm{
+	width: 95%;
+	 justify-content: center;
+}
+
+.footerContainer1BtmForm{
+//width: 75%;
+}
+.squirrel{
+	display: block;
+}
+
+.footerContainerInner{
+	display: flex;
+	justify-content:center;
+
+}
+
+.footernavcontainer{
+	&:nth-of-type(n+2){
+		padding-left: 10px;
+	}
+}
+
+.footernavtext, .footernavtext1{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.footerContainerInner1{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guaranteesquirrel{
+	display: none;
+}
+
+.footerNav1Inner{
+	width: 80%;
+    margin: auto;
+}
+
+.footertext {
+    
+}
+
+.footerContainerInner2{
+	flex-direction:row;
+	align-items:stretch;
+}
+
+
+.footerContainerInner4{
+	flex-direction:column;
+	align-items:center;
+}
+.footerSeals{
+	padding-top: 20px;
+}
+.footerSealsList{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	
+	li{
+		&:nth-child(n+2){
+			margin-left: 3%;
+		}
+	}
+
+}
+
+.footerContainerInner5{
+ flex-direction:column;
+}
+
+.inner5Row1{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.inner5Row1a{
+	margin-left: 3%;
+}
+
+.inner5Row2{
+	display: flex;
+	justify-content:center;
+	a{
+		font-size: 1rem;
+	}
+}
+.inner5Row2a{
+	margin-left: 3%;
+
+}
+
+
+.footerSeals{
+	padding-top: 0;
+}
+.footerSealsList{
+	flex-direction:row;
+}
+
+  } /* min-width 48em, medium screens */
