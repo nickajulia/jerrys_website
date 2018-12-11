@@ -4,6 +4,7 @@ Template Name: Full Width Page FRONT PAGE ONLY
 */
 
 
+
 ?>
 
 <?php get_header(); ?>

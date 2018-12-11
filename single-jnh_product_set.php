@@ -6,6 +6,7 @@ Template Name: single-jnh_product_set
 
 */
 
+
 get_header();
 
 if (have_posts()) :

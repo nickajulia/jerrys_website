@@ -10,7 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php wp_title('&laquo;', true, 'right'); ?> <?php //bloginfo('name'); ?></title>
 
-<!-- Defer Js -->
+
 
 
 <link rel="shortcut icon" href="https://www.jerrysnuthouse.com/wp-content/themes/jerry/images/jerrys-nut-house-online-favicon.ico" />

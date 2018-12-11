@@ -1,4 +1,10 @@
-<?php wp_footer(); ?>
+
+
+<?php 
+wp_footer();
+include_once("analyticstracking.php");
+
+?>
 
 <script type="text/javascript">
 //<![CDATA[
@@ -7,7 +13,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
 //]]>
 </script>
 
-<?php include_once("analyticstracking.php") ?>
+
 
 
 <footer>
@@ -195,15 +201,6 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
 
 
 </footer>
-
-<?php
-do_action( 'genesis_before_footer' );
-do_action( 'genesis_footer' );
-do_action( 'genesis_after_footer' );
-
-do_action( 'genesis_after' );
-wp_footer(); //* we need this for plugins
- ?>
 
 
 

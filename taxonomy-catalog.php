@@ -8,6 +8,7 @@
 
  */
 
+
 get_header(); 
 
 $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); 
@@ -82,7 +83,7 @@ $term_slug= $term->slug;
 						?>
 
 						<a href="<?php the_permalink(); ?>"><!--link to single product set-->
-							<img class="catProductImg" src="<?php echo $main_picture ?>" id="<?php echo 'thumbnail-', $post->ID; ?>" /><!--product set img-->
+							<img class="catProductImg lazy" src="/wp-content/uploads/tiny-squirrel.png" data-src="<?php echo $main_picture ?>" id="<?php echo 'thumbnail-', $post->ID; ?>" /><!--product set img-->
 						</a>
 
 						<?php 

@@ -173,16 +173,9 @@ function gs_register_sidebars() {
 }
 
 
-/** Reposition footer outside main wrap */
-remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
-remove_action( 'genesis_footer', 'genesis_do_footer' );
-remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 ) ;
 
-add_action( 'genesis_after', 'genesis_footer_markup_open', 5 );
-add_action( 'genesis_after', 'genesis_do_footer' );
-add_action( 'genesis_after', 'genesis_footer_markup_close', 15 );
 
-/** Reposition header outside main wrap */
+/** Reposition header outside main wrap 
 remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
 remove_action( 'genesis_header', 'genesis_do_header' );
 remove_action( 'genesis_header', 'genesis_header_markup_close', 15 ) ;
@@ -190,6 +183,7 @@ remove_action( 'genesis_header', 'genesis_header_markup_close', 15 ) ;
 add_action( 'genesis_before', 'genesis_header_markup_open', 5 );
 add_action( 'genesis_before', 'genesis_do_header' );
 add_action( 'genesis_before', 'genesis_header_markup_close', 15 );
+*/
 
 /**  Register Menus - hopefully */
 // Register Navigation Menus
@@ -250,15 +244,28 @@ remove_action('genesis_post_title', 'genesis_do_post_title');
 remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
 remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
-//* Remove the entry header markup (requires HTML5 theme support)
+/* Remove the entry header markup (requires HTML5 theme support)
 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+*/
+//remove genesis header
+remove_action('genesis_header','genesis_do_header');
+function injectHeader() { 
+include_once('header.php');
+ }
+
+ add_action('genesis_header','injectHeader');
 
 // Remove site footer.
 remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
+// Customize site footer
+add_action( 'genesis_footer', 'sp_custom_footer' );
+function sp_custom_footer() { 
+
+  include_once('footer.php');
 
 
+}
 
-?>
