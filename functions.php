@@ -17,9 +17,8 @@ define( 'CHILD_THEME_NAME', 'Jerry' );
 define( 'CHILD_THEME_URL', 'http://www.mindheros.com/' );
 define( 'CHILD_THEME_VERSION', '2.2.4' );
 
-// Start the engine
-//* this will bring in the Genesis Parent files needed:
-include_once( get_template_directory() . '/lib/init.php' );
+// Starts the engine.
+require_once get_template_directory() . '/lib/init.php';
 
 //* We tell the name of our child theme
 define( 'Child_Theme_Name', __( 'Jerrys', 'jerrys' ) );
@@ -244,6 +243,22 @@ function genesis_sample_comments_gravatar( $args ) {
   return $args;
 
 }
+
+// remove genesis bs
+remove_action('genesis_entry_header', 'genesis_do_post_title');
+remove_action('genesis_post_title', 'genesis_do_post_title');
+remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
+remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+
+//* Remove the entry header markup (requires HTML5 theme support)
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+
+// Remove site footer.
+remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
+
 
 
 ?>

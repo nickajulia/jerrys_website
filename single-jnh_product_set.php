@@ -74,7 +74,7 @@ if (have_posts()) :
 		</div><!--hero Left-->
 		<div id="heroRight" class="heroRight">
 		
-			<div id="product_set_name_container" class=""> <h1 class="productPageName hidden-sm-down"><?php echo $name;?></h1></div>
+			<div id="product_set_name_container" style="visibility: hidden;" class=""> <h1 class="productPageName hidden-sm-down"><?php echo $name;?></h1></div>
 			<div id="itemReviewWrap" class="itemReviewWrap">
 				
 			</div>
@@ -107,7 +107,7 @@ if (have_posts()) :
 		 							</div>
 
 		 							<div class="variation_price " style="width:100%;">
-		 								<script type="text/javascript" src="http://store.jerrysnuthouse.com/cgi-bin/UCPrice?MERCHANTID=2101&ITEM=<?php echo $variation["ultracart_id"];?>&output=Javascript"></script>
+		 								<script type="text/javascript" src="https://store.jerrysnuthouse.com/cgi-bin/UCPrice?MERCHANTID=2101&ITEM=<?php echo $variation["ultracart_id"];?>&output=Javascript"></script>
 
 
 
@@ -164,11 +164,11 @@ if (have_posts()) :
 	 				</div>
 	 				<ul id="guaranteeList" class="guaranteeList">
 	 					<div class="guaranteeListSection2">
-		 					<li class="guaranteeListItem1"><a href="http://www.jerrysnuthouse.com/our-guarantee/"><img src="http://www.jerrysnuthouse.com/wp-content/uploads/gaurantee_badge-e1443726409159.png" alt=""></a></li>
-		 					<li class="guaranteeListItem2"><a href="http://www.jerrysnuthouse.com/our-guarantee/">100% Satisfaction Guarantee</a></li>
+		 					<li class="guaranteeListItem1"><a href="https://www.jerrysnuthouse.com/our-guarantee/"><img src="https://www.jerrysnuthouse.com/wp-content/uploads/gaurantee_badge-e1443726409159.png" alt=""></a></li>
+		 					<li class="guaranteeListItem2"><a href="https://www.jerrysnuthouse.com/our-guarantee/">100% Satisfaction Guarantee</a></li>
 		 				</div>
 		 				<div id="guaranteeListSection2" class="guaranteeListSection2">
-		 					<li class="guaranteeListItem1"><a href="http://www.jerrysnuthouse.com/shipping">Shipping Info</a></li>
+		 					<li class="guaranteeListItem1"><a href="https://www.jerrysnuthouse.com/shipping">Shipping Info</a></li>
 		 					<li><a href="">Compare sizes</a></li>
 							
 	 					</div>

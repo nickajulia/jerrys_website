@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -14,10 +13,34 @@
 <!-- Defer Js -->
 
 
-<link rel="shortcut icon" href="http://www.jerrysnuthouse.com/wp-content/themes/jerry/images/jerrys-nut-house-online-favicon.ico" />
+<link rel="shortcut icon" href="https://www.jerrysnuthouse.com/wp-content/themes/jerry/images/jerrys-nut-house-online-favicon.ico" />
+
+<!--Genisis code -->
+<?php
+do_action( 'genesis_doctype' );
+do_action( 'genesis_title' );
+do_action( 'genesis_meta' );
+wp_head(); // We need this for plugins.
+?>
+
+<?php
+genesis_markup( array(
+ 'open' => '<body %s>',
+ 'context' => 'body',
+) );
+do_action( 'genesis_before' );
+genesis_markup( array(
+ 'open' => '<div %s>',
+ 'context' => 'site-container',
+) );
+do_action( 'genesis_before_header' );
+do_action( 'genesis_header' );
+do_action( 'genesis_after_header' );
 
 
-<?php wp_head(); ?>
+
+?>
+
 </head>
 <div id="menuAboveWrap" class="menuAboveWrap">
   <div id="menuAbove" class="menuAbove">
@@ -27,7 +50,7 @@
 <div class="headercontainer">
   <div id="headerInner" class="headerInner">
     <div class="logoWrap">
-      <img class="logo" src="http://www.jerrysnuthouse.com/wp-content/uploads/logo.png" alt="Jerrys Nut House" border="0" usemap="#Map"/>
+      <img class="logo" src="https://www.jerrysnuthouse.com/wp-content/uploads/logo.png" alt="Jerrys Nut House" border="0" usemap="#Map"/>
       <map name="Map" id="Map">
       <area shape="circle" coords="75,75,75" href="<?php echo get_option('home'); ?>/index.php" />
       </map>

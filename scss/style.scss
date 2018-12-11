@@ -1,19 +1,19 @@
 /*
  Theme Name:   Jerrys Genesis Child
- Theme URI:    http://jerrysnuthouse.com/jerrys/
+ Theme URI:    https://jerrysnuthouse.com/jerrys/
  Description:  Jerrys Genesis Child
  Author:       Nicholas Julia
- Author URI:   http://nicholasjulia.com
+ Author URI:   https://nicholasjulia.com
  Template:     genesis
  Version:      1.0.0
  License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 
 */
 
 //style.scss
 
-@import "fa-scss/fontawesome.scss";
+//@import "fa-scss/fontawesome.scss";
 
 /*------------- variables ------------- */
 
@@ -29,17 +29,13 @@ $btnLightRedBg: #000000;
 /*------------- fonts ------------- */
 
 @font-face {
-  font-family: "BebasNeueRegular";
+  font-family: "bebasNeue";
 
-  src: url("http://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.eot");
+  src: url("https://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.eot");
 
-  src: url("http://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.eot?#iefix")
+  src: url("https://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.eot?#iefix")
       format("embedded-opentype"),
-    url("http://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.woff")
-      format("woff"),
-    url("http://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.ttf")
-      format("truetype"),
-    url("http://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.svg#BebasNeueRegular")
+    url("https://mmm.jerrysnuthouse.com/fonts/BebasNeue-webfont.svg#bebasNeue")
       format("svg");
 
   font-weight: normal;
@@ -47,24 +43,8 @@ $btnLightRedBg: #000000;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "BebasRegular";
+html { font-size: 16px; } 
 
-  src: url("http://mmm.jerrysnuthouse.com/fonts/Bebas-fontfacekit/BEBAS___-webfont.eot");
-
-  src: url("http://mmm.jerrysnuthouse.com/fonts/Bebas-fontfacekit/BEBAS___-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("http://mmm.jerrysnuthouse.com/fonts/Bebas-fontfacekit/BEBAS___-webfont.woff")
-      format("woff"),
-    url("http://mmm.jerrysnuthouse.com/fonts/Bebas-fontfacekit/BEBAS___-webfont.ttf")
-      format("truetype"),
-    url("http://mmm.jerrysnuthouse.com/fonts/Bebas-fontfacekit/BEBAS___-webfont.svg#BebasRegular")
-      format("svg");
-
-  font-weight: normal;
-
-  font-style: normal;
-}
 
 h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -119,6 +99,11 @@ a {
 }
 
 /* ----------header  -----------*/
+
+//kill site header
+.site-header{
+  display: none;
+}
 
 .meunuAboveWrap {
   display: none;
@@ -298,7 +283,7 @@ a {
 }
 
 .quantityWrap {
-  font-family: "BebasNeueRegular", Tahoma, Arial, sans-serif;
+  font-family: "BebasNeue", Tahoma, Arial, sans-serif;
   font-size: 1em;
   display: flex;
   justify-content: center;
@@ -738,7 +723,7 @@ a:hover.desc {
 .homeHeroWrap {
 }
 .homeHero {
-  background-image: url(http://www.jerrysnuthouse.com/wp-content/uploads/Pistachios-e1480974442108.jpeg);
+  background-image: url(https://www.jerrysnuthouse.com/wp-content/uploads/Pistachios-e1480974442108.jpeg);
   background-size: cover;
   padding: 150px 0 150px 0;
   background-blend-mode: darken;
@@ -762,7 +747,7 @@ a:hover.desc {
     color: #ffffff;
     font-size: 45px;
     font-weight: 400;
-    font-family: BebasNeueRegular;
+    font-family: BebasNeue;
     text-rendering: optimizeLegibility;
   }
 
@@ -892,7 +877,7 @@ a:hover.desc {
 }
 
 .squareTextTitle {
-  font-family: "BebasNeueRegular", "Helvetica Neue", Helvetica, Arial,
+  font-family: "bebasNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 4rem;
   color: #000000;
@@ -900,7 +885,7 @@ a:hover.desc {
 }
 
 .squareTextTitleCenter {
-  font-family: "BebasNeueRegular", "Helvetica Neue", Helvetica, Arial,
+  font-family: "bebasNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 4rem;
   text-align: center;
@@ -936,8 +921,7 @@ a:hover.desc {
 }
 
 .foonterContainer1 {
-  background: #830a04
-    url("http://mmm.jerrysnuthouse.com/website+images/noisy-texture-100x100-o5-d15-c-a81d18-t0.png");
+  background: #830a04 ;
   color: #ffffff;
 }
 
@@ -961,7 +945,7 @@ a:hover.desc {
 
 .footerContainer2 {
   background: #fff
-    url(http://mmm.jerrysnuthouse.com/website+images/grey_jean.png);
+    
 }
 
 .footerContainerInner2 {
@@ -972,7 +956,7 @@ a:hover.desc {
 }
 
 .footertext {
-  font-family: "BebasNeueRegular", Tahoma, Arial, sans-serif;
+  font-family: "bebasNeue", Tahoma, Arial, sans-serif;
   font-size: 2rem;
   color: #830a04;
   text-decoration: none;

@@ -2,7 +2,7 @@
 
 <script type="text/javascript">
 //<![CDATA[
-var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "https://www.trustlogo.com/");
 document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
 //]]>
 </script>
@@ -65,7 +65,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
             </form>
             <!-- /AWeber Web Form Generator 3.0.1 -->
           </div><!--footerContainer1BtmInner-->  
-          <div id="squirrel" class="squirrel"><img src="http://www.jerrysnuthouse.com/wp-content/uploads/squirrel1.png"></div>
+          <div id="squirrel" class="squirrel"><img src="https://www.jerrysnuthouse.com/wp-content/uploads/squirrel1.png"></div>
         </div><!--Footer Container 1 btm-->
     </div> <!---end container -->
   </div> <!---end footercontainer1 -->
@@ -73,21 +73,21 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
     <div class="footerContainerInner footerContainerInner2">  
       <div id="footernav1" class="footernavcontainer footernav1">
         
-          <a href="http://www.jerrysnuthouse.com/our-guarantee/"><span class="footertext"  >100% Guarantee</span><br>
+          <a href="https://www.jerrysnuthouse.com/our-guarantee/"><span class="footertext"  >100% Guarantee</span><br>
           </a> 
           <div class="or-spacer">
             <div class="mask"></div>
           </div>
           <div id="footerNav1Inner" class="footerNav1Inner"> 
-            <div id="guaranteesquirrel" class="guaranteesquirrel"><img src="http://www.jerrysnuthouse.com/wp-content/uploads/guaranteesquirrel1.png">
+            <div id="guaranteesquirrel" class="guaranteesquirrel"><img src="https://www.jerrysnuthouse.com/wp-content/uploads/guaranteesquirrel1.png">
             </div>
-            <div class="footernavtext1"><a href="http://www.jerrysnuthouse.com/our-guarantee/">Our guarantee is soo sweet that it's ALMOST too good to believe.<br><br>  I'll tell you why that is ....<br> Click Here.</a> 
+            <div class="footernavtext1"><a href="https://www.jerrysnuthouse.com/our-guarantee/">Our guarantee is soo sweet that it's ALMOST too good to believe.<br><br>  I'll tell you why that is ....<br> Click Here.</a> 
             </div><!--footerNavText-->
         </div> <!--footer Nav 1 inner-->
         
       </div> <!--FooterNav1-->
       <div id="footernav2" class="footernavcontainer">
-        <a href="http://www.jerrysnuthouse.com/contact-us/"><span class="footertext">Fanatical Support</span></a>
+        <a href="https://www.jerrysnuthouse.com/contact-us/"><span class="footertext">Fanatical Support</span></a>
         <div class="or-spacer">
           <div class="mask"></div>
         </div>
@@ -105,7 +105,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                         <br>Denver, Co 80205</a>
             </li>
              <li class="footerNavTextList">
-               <a href="http://www.jerrysnuthouse.com/contact-us/" >Hours & Contact</a>
+               <a href="https://www.jerrysnuthouse.com/contact-us/" >Hours & Contact</a>
             </li>
           </ul>
 
@@ -122,12 +122,12 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
           <div class="mask"></div>
         </div>
         <div class="footernavtext">
-          <a href="http://www.jerrysnuthouse.com/chocolate-shipping-disclaimer/">Heat Sensitive Items</a><br>
-          <a href="http://www.jerrysnuthouse.com/shipping/">Shipping</a><br>
-          <a href="http://www.jerrysnuthouse.com/faq/">FAQ</a><br>
-             <a href="http://www.jerrysnuthouse.com/blog/">Blog</a>
-          <a href="http://www.jerrysnuthouse.com/affiliate-program/">Be An Affiliate</a><br>
-          <a href="http://www.jerrysnuthouse.com/wholesale-opportunities/">Wholesale</a>
+          <a href="https://www.jerrysnuthouse.com/chocolate-shipping-disclaimer/">Heat Sensitive Items</a><br>
+          <a href="https://www.jerrysnuthouse.com/shipping/">Shipping</a><br>
+          <a href="https://www.jerrysnuthouse.com/faq/">FAQ</a><br>
+             <a href="https://www.jerrysnuthouse.com/blog/">Blog</a>
+          <a href="https://www.jerrysnuthouse.com/affiliate-program/">Be An Affiliate</a><br>
+          <a href="https://www.jerrysnuthouse.com/wholesale-opportunities/">Wholesale</a>
 
         </div><!--Footer Nav Text-->
       </div><!--Footer Nav 3-->
@@ -148,12 +148,12 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
             <div id="secureseal">
               <!--
               TrustLogo Html Builder Code:
-              Shows the logo at URL http://www.jerrysnuthouse.com/wp-content/uploads/comodoseal.png
+              Shows the logo at URL https://www.jerrysnuthouse.com/wp-content/uploads/comodoseal.png
               Logo type is  ("SC5")
               Not Floating
               //-->
-              <a href="http://www.instantssl.com" id="comodoTL">SSL</a>
-              <script type="text/javascript">TrustLogo("http://www.jerrysnuthouse.com/wp-content/uploads/comodoseal.png", "SC5", "none");</script>
+              <a href="https://www.instantssl.com" id="comodoTL">SSL</a>
+              <script type="text/javascript">TrustLogo("https://www.jerrysnuthouse.com/wp-content/uploads/comodoseal.png", "SC5", "none");</script>
             </div><!--SecureSeal-->
           </li>
           <li id="footerSealsItem2" class="footerSealsItem">
@@ -170,15 +170,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                <!-- PayPal Logo --><a href="https://www.paypal.com/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.jerrysnuthouse.com/wp-content/uploads/paypal_img.jpg" border="0" alt="PayPal Acceptance Mark"></a><!-- PayPal Logo -->
              </div>
           </li>
-          <li id="footerSealsItem4" class="footerSealsItem">
-            
-            <div id="authorizenet" class="footerfloat">
-              <!-- (c) 2005, 2014. Authorize.Net is a registered trademark of CyberSource Corporation --> 
-              <div class="AuthorizeNetSeal"> 
-                <script type="text/javascript" language="javascript">var ANS_customer_id="0dfdac43-de7a-4443-8e5f-cac3c9a3d18d";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script> <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Payment Processing</a> 
-              </div>
-            </div> <!---Authorize Net-->
-          </li>
+          
         </ul>
       </div> <!---end footer Seals -->
     </div><!---end container -->
@@ -191,11 +183,11 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
       <div class="inner5Wrap" id="inner5Wrap">
         <div class="inner5Row1">
           <div>&copy; Jerry's Nut House Inc.</div>     
-          <div class="inner5Row1a">Made with <img src="http://www.jerrysnuthouse.com/wp-content/uploads/heart1.png" /> in Denver, Co</div>
+          <div class="inner5Row1a">Made with <img src="https://www.jerrysnuthouse.com/wp-content/uploads/heart1.png" /> in Denver, Co</div>
         </div>
         <div class="inner5Row2" >
-          <a href="http://www.jerrysnuthouse.com/privacy-policy/">Privacy Policy</a>  
-          <a class="inner5Row2a" href="http://www.jerrysnuthouse.com/terms-service/">Terms</a>
+          <a href="https://www.jerrysnuthouse.com/privacy-policy/">Privacy Policy</a>  
+          <a class="inner5Row2a" href="https://www.jerrysnuthouse.com/terms-service/">Terms</a>
         </div>
       </div><!--Inner5Wrap--> 
     </div><!--footer container inner--> 
@@ -203,6 +195,15 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
 
 
 </footer>
+
+<?php
+do_action( 'genesis_before_footer' );
+do_action( 'genesis_footer' );
+do_action( 'genesis_after_footer' );
+
+do_action( 'genesis_after' );
+wp_footer(); //* we need this for plugins
+ ?>
 
 
 
